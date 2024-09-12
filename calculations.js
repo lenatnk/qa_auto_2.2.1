@@ -1,20 +1,28 @@
+/*
+Assignment operators (операторы присваивания)
+Эти операторы одновременно выполняют операцию и присваивают результат обратно переменной.
+Вместо x = x + y можно использовать x += y.
+Вместо x = x - y можно использовать x -= y.
+Вместо x = x / y можно использовать x /= y.
+Вместо x = x % y можно использовать x %= y.
+*/
 function increaseBalance(x, y) {
-  x = x + y;
+  x += y;
   return x;
 }
 
 function decreaseBalance(x, y) {
-x = x - y;
+x -= y;
 return x;
 }
 
 function divideBalanceByAccounts(x, y) {
-  x = x / y;
+  x /= y;
   return x;
 }
 
 function getRestAfterDivision(x, y) {
-  x = x % y;
+  x %= y;
   return x;
 }
 
